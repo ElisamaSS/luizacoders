@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
-    "build": "sucrase ./src -d ./build --tranforms imports",
+    "build": "sucrase ./src -d ./build --transforms imports",
     "start": "node build/server.js"
   },
   "keywords": [],
@@ -19,11 +19,11 @@
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.6.5",
+    "sucrase": "^3.20.1",
     "yup": "^0.32.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.12",
-    "sequelize-cli": "^6.2.0",
-    "sucrase": "^3.20.1"
+    "sequelize-cli": "^6.2.0"
   }
 }
