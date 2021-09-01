@@ -4,4 +4,3 @@
 - Criação de sessão e validação do usuário
 - Criação de rotas públicas e privadas 
 
-:pushpin: luizacoders 2021
