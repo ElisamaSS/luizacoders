@@ -1,3 +1,3 @@
-# :eyes: Projetinhos desenvolvidos
+# :eyes: Exercícios desenvolvidos
 - Branchs criadas para centralizar o desenvolvimento neste repositório 
-# :pushpin: luizacoders
+# :pushpin: luizacoders 
