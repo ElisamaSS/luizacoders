@@ -3,4 +3,5 @@
 - Criação de tabelas e campos + migration do BD
 - Criação de sessão e validação do usuário
 - Criação de rotas públicas e privadas 
+- Associação entre tabelas
 
