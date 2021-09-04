@@ -2,7 +2,9 @@ import { Sequelize } from "sequelize";
 import User from "../app/models/User";
 import databaseConfig from "../config/database"
 import Appointment from "../app/models/Appointment";
-const models = [ User, Appointment ];
+import File from '../app/models/File'
+
+const models = [ User, Appointment, File ];
 
 class Database{
 
