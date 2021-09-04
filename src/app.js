@@ -1,8 +1,10 @@
+import 'dontenv/config';
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import routes from './router';
 import './database';
+
 
 class App{
 
