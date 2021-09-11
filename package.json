@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
     "build": "sucrase ./src -d ./build --transforms imports",
+    "swagger-autogen": "node ./swagger.js",
     "start": "node build/server.js"
   },
   "keywords": [],
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12",
-    "sequelize-cli": "^6.2.0"
+    "sequelize-cli": "^6.2.0",
+    "swagger-autogen": "^2.11.2"
   }
 }

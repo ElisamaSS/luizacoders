@@ -6,7 +6,7 @@ const NotificationsSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    use: {
+    user: {
         type: Number,
         required: true,
     },
